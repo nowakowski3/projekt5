@@ -1,4 +1,6 @@
-
+p{
+    margin: 0px !important;
+}
 @font-face {
     font-family: Sintony-Bold !important;
     src: url(fonts/sintony/Sintony-Bold.ttf) format('truetype') !important;
@@ -49,9 +51,10 @@ opacity: 1;
     padding-top: 2.25%;
 }
 .czcionkatyp {
-    letter-spacing: 0.1vh;
+    letter-spacing: 0.05vh;
     color: white;
-    font-size: 1vw
+    font-size: 1vw;
+    font-family: 'Sintony-bold', sans-serif;
 }
 .btnrezerwacja {
     /* Layout Properties */
@@ -99,6 +102,7 @@ color: #FFFFFF;
 opacity: 1;
 font-size: 0.7vw;
 padding-left: 0.01vw;
+font-family: 'Sintony', sans-serif;
 }
 #conposfix {
 margin-left: 20vw !important;
@@ -135,12 +139,13 @@ text-decoration: none;
 }
 
 .carousel-labels-header-font {
-
+    font-family: 'Sintony-Bold', sans-serif;
     font-size: 3vw !important;
 }
 
 .carousel-labels-drp-font{
     font-size: 1.5vw !important;
+    font-family: 'Sintony-Bold', sans-serif;
 }
 
 .carousel-arrow-left-place {
@@ -178,18 +183,123 @@ top: 6vh;
     line-height: 1.2vh;
 }
 .food-menu-logo {
-position: relative;
 font-size: 1.5vw;
 }
 .menu {
 margin-left: 20vw;
 margin-top: 10vh;
-height: 40vh;
+height: 50vh;
 width: 28.5vw;
+font-family: 'Sintony', sans-serif;
 }
 .food-menu-list {
-    height: 26.5vh;
+    height: 33.5vh;
     width: 28vw;
+    margin-top: 2vh;
+    /* background-color: #FEA100; */
+}
+.dinner-name {
+    padding-top: 1.1vh;
+margin: 0px;
+    font-size: 0.85vw;
+    font-family: 'Sintony', sans-serif;
+}
+.dinner-price {
+margin: 0px;
+    vertical-align: text-top;
+    justify-content: flex-end;
+    float:right;
+    padding-right: 3.68vw;
+    font-size: 1.3vw;
+    font-family: 'PlayfairDisplay-Bold', serif;
+}
+.product1 {
+    display: flex;
+    margin: 0px;
+}
+
+.other-products div:last-child
+{
+    margin-left: auto;
+}
+.product1 div:last-child {
+    margin-left: auto;
+}
+
+.dinner-drp {
+font-size: 0.63vw;
+font-family: 'Sintony', sans-serif;
+line-height: 0.8vh;
+color: #5C6369;
+}
+
+.menu-break {
+width: 27vw;
+height: 1px;
+/* UI Properties */
+margin-top: 2vh;
+opacity: 1;
+background-color: #EEEEEE;
+}
+.other-products {
+    display: flex;
+
+    margin-top: 1vh;
+}
+.menu-vertical-break {
+top:  -33vh;
+position: relative;
+    width: 0.2vw;
+    height: 4vh;
+    /* UI Properties */
+    background: #FE4C8D 0% 0% no-repeat padding-box;
+    opacity: 1;
+    float: right;
+}
+.exp-food-menu-btn {
+width: 10vw;
+height: 51px;
+background: #FEA100 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+color:#FFFFFF;
+font-family: 'Sintony', sans-serif;
+}
+.today-special {
+        margin-top: 10vh;
+        height: 50vh;
+        width: 28.5vw;
+        font-family: 'Sintony', sans-serif;
+        }
+        .menus {
+            display: flex;
+            gap: 2vw;
+        }
+        .today-special-logo {
+                font-size: 1.5vw;
+                }
+.card-drp {
+    padding-top: 1vh;
+    padding-left: 0.5vw;
+    font-size: 1vw;
+    font-family: 'Sintony', sans-serif;
+}
+
+.marinara-price{
+    padding-left: 0.5vw;
+    line-height: 1vw;
+    font-size: 1.2vw;
+    font-family: 'PlayfairDisplay-Bold', serif;
+    color: #FEA100;
+    padding-bottom: 2vh;
+}
+.card-margin {
     margin-top: 2.5vh;
-    font-family: 'Sintony-Bold';
+    z-index: 99;
+}
+.card-shadow {
+    position: relative;
+    z-index: 1;
+    top: -33.75vh;
+    left: 10vw;
 }
