@@ -1,17 +1,4 @@
 
-@font-face {
-    font-family: Sintony-Bold;
-    src: url(fonts/sintony/Sintony-Bold.ttf) format('truetype');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PlayfairDisplay-Bold';
-    src: url(fonts/PlayfairDisplay/PlayfairDisplay-Bold.otf) format('opentype');
-    font-weight: 700;
-    font-style: normal;
-}
 .logo1 {
     /* Layout Properties */
 width: 133px;
@@ -168,12 +155,28 @@ top: 6vh;
 }
 .carousel-label-callus {
     color: #FEA100;
-    font-size
+
 }
 
 .carousel-number {
-    font-family: PlayfairDisplay-Bold;
+    font-family: 'PlayfairDisplay-Bold';
     color: #FFFFFF;
     font-size: 2vw;
     line-height: 1.2vh;
+}
+.food-menu-logo {
+position: relative;
+font-size: 1.5vw;
+}
+.menu {
+margin-left: 20vw;
+margin-top: 10vh;
+height: 40vh;
+width: 28.5vw;
+}
+.food-menu-list {
+    height: 26.5vh;
+    width: 28vw;
+    margin-top: 2.5vh;
+    font-family: PlayfairDisplay-Bold;
 }
